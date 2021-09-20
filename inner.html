@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./bootstrap-4.0.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+
+
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <div class="logo-wrap">
+                    <a href="" class="logo">
+                        <span class="logo-title">Проф</span>
+                        <span class="logo-title">Баня</span>
+                    </a>
+                </div>
+                <div class="header-phone-wrap">
+                    <a href="tel:89315802131" class="header-phone-number">+7 931 580-21-31</a>
+                </div>
+                <div class="main-menu-wrap js-popup-wrap">
+                    <a href="" class="btn-action-ico ico-menu js-btn-toggle">
+                        <span class="button-title">Меню</span>
+                    </a>
+                    <div class="menu-block js-popup-block">
+                        <a href="" class="btn-action-ico ico-close-main js-btn-close">
+                            <span class="button-title">Закрыть</span>
+                        </a>
+                        <div class="menu-outer-wrap">
+                            <div class="menu-inner-wrap">
+                                <div class="menu-wrap">
+                                    <ul>
+                                        <li><a href="">Проекты</a></li>
+                                        <li><a href="">О компании</a></li>
+                                        <li><a href="">Технология</a></li>
+                                        <li><a href="">Преимущества</a></li>
+                                        <li><a href="">Фото проектов</a></li>
+                                        <li><a href="">Схема работы</a></li>
+                                        <li><a href="">Отзывы</a></li>
+                                        <li><a href="">Вопрос-ответ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="contacts-wrap">
+                                    <div class="phone-wrap">
+                                        <a href="tel:84959601313" class="phone-number">+7 (495) 960-13-13</a>
+                                    </div>
+                                    <div class="phone-wrap">
+                                        <a href="tel:88129280888" class="phone-number">+7 (812) 928-08-88</a>
+                                    </div>
+                                    <div class="email-wrap">
+                                        <a href="mailto:info@profbanya.su">info@profbanya.su</a>
+                                    </div>
+                                </div>
+                                <div class="callback-wrap">
+                                    <a href="" class="btn button-border button-second" data-src="#popup-callback" data-fancybox="">
+                                        <span class="button-title">заказать звонок</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="soc-wrap">
+                    <div class="soc-buttons-wrap">
+                        <a href="" class="btn-action-ico button-soc">
+                            <svg width="13" height="25" viewBox="0 0 13 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.3186 25V13.2693H0V9.04565H3.3186V5.43813C3.3186 2.6033 5.27891 0 9.79588 0C11.6247 0 12.9771 0.163875 12.9771 0.163875L12.8705 4.10803C12.8705 4.10803 11.4913 4.09548 9.98632 4.09548C8.35743 4.09548 8.09646 4.7971 8.09646 5.96163V9.04565H13L12.7866 13.2693H8.09646V25H3.3186Z" fill="#5D686F" />
+                            </svg>
+                        </a>
+                        <a href="" class="btn-action-ico button-soc">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.4333 6.02498C24.1718 6.8606 23.7893 7.6534 23.2979 8.37811L23.3177 8.34686C22.851 9.12464 22.2937 10.0232 21.6458 11.0427C21.0903 11.8476 20.7962 12.2642 20.7635 12.2927C20.615 12.4786 20.519 12.7009 20.4854 12.9364L20.4844 12.9437C20.5109 13.156 20.6094 13.3527 20.7635 13.501L21.1802 13.9656C23.4094 16.2566 24.6632 17.8357 24.9417 18.7031C24.9945 18.8456 25.0114 18.9989 24.9911 19.1494C24.9708 19.3 24.9137 19.4433 24.825 19.5667L24.8271 19.5635C24.7222 19.6717 24.5944 19.7549 24.453 19.807C24.3116 19.8591 24.1604 19.8788 24.0104 19.8646H24.0146H21.2687C20.9177 19.8646 20.5948 19.7417 20.3417 19.5375L20.3448 19.5396C19.9834 19.2433 19.6516 18.9125 19.3542 18.5521L19.3448 18.5396C18.8649 17.9972 18.4392 17.5406 18.0677 17.1698C16.8302 15.9934 15.917 15.4052 15.3281 15.4052C15.138 15.3882 14.948 15.4379 14.7906 15.5458L14.7937 15.5437C14.7261 15.6285 14.6765 15.7262 14.6478 15.8308C14.6192 15.9353 14.6121 16.0447 14.6271 16.1521V16.1479C14.5866 16.6339 14.5734 17.1219 14.5875 17.6094V17.5917V18.7989C14.6171 18.9432 14.6069 19.0927 14.5581 19.2316C14.5093 19.3705 14.4237 19.4935 14.3104 19.5875L14.3094 19.5885C13.7819 19.8269 13.2011 19.9227 12.625 19.8667L12.6385 19.8677C11.0616 19.8406 9.52201 19.384 8.1854 18.5469L8.22186 18.5677C6.6806 17.6385 5.35953 16.3857 4.34999 14.8958L4.32186 14.8521C3.3419 13.5453 2.4805 12.1536 1.7479 10.6937L1.67499 10.5333C1.18682 9.58794 0.75787 8.61315 0.390613 7.61457L0.328113 7.42186C0.157837 6.90346 0.049446 6.36675 0.00519613 5.8229L0.00311279 5.79686C0.00311279 5.27047 0.312835 5.00728 0.932279 5.00728H3.67186C3.94883 4.98558 4.22377 5.06929 4.44165 5.24165L4.43957 5.23957C4.6479 5.46769 4.80207 5.7479 4.87811 6.0604L4.88124 6.0729C5.33383 7.36906 5.88654 8.62807 6.53436 9.83852L6.46457 9.69582C6.93279 10.6469 7.49943 11.5462 8.1552 12.3791L8.13124 12.3469C8.68679 13.0288 9.12013 13.3698 9.43124 13.3698L9.46457 13.3708C9.53782 13.3709 9.60979 13.3517 9.67325 13.3151C9.73671 13.2786 9.78941 13.2259 9.82603 13.1625L9.82707 13.1604C9.9268 12.8993 9.96633 12.6191 9.9427 12.3406V12.3469V8.30623C9.92323 7.84811 9.80976 7.39887 9.60936 6.98644L9.61769 7.00623C9.49618 6.74412 9.33839 6.50041 9.14895 6.28228L9.15207 6.28644C8.9774 6.11205 8.86376 5.88588 8.82811 5.64165L8.82707 5.6354C8.82707 5.45832 8.90832 5.29894 9.0354 5.19478L9.03645 5.19373C9.16722 5.07396 9.33828 5.00777 9.51561 5.00832H13.8427C13.9513 4.99564 14.0614 5.01013 14.163 5.0505C14.2646 5.09086 14.3547 5.15583 14.425 5.23957L14.426 5.24061C14.5576 5.48371 14.6152 5.75999 14.5917 6.0354V6.03019V11.4187C14.5751 11.6313 14.6245 11.8437 14.7333 12.0271L14.7312 12.0229C14.7694 12.0799 14.821 12.1267 14.8815 12.159C14.942 12.1913 15.0095 12.2083 15.0781 12.2083H15.0792C15.2548 12.1969 15.4242 12.1386 15.5698 12.0396L15.5667 12.0417C15.85 11.8469 16.0937 11.625 16.3052 11.3739L16.3094 11.3687C16.9529 10.6406 17.5299 9.85619 18.0333 9.02498L18.0739 8.95207C18.4323 8.35832 18.8198 7.62707 19.1708 6.87603L19.2354 6.7229L19.7 5.79373C19.7818 5.55349 19.9396 5.3464 20.1495 5.20376C20.3594 5.06113 20.61 4.99069 20.8635 5.00311H20.8604H23.601C24.3413 5.00311 24.6191 5.34373 24.4344 6.02498H24.4333Z" fill="#5D686F" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!--main-top-box-->
+        <div class="main-top-box cnt-section">
+            <div class="container">
+                <!--/slider wrap-->
+                <div class="slider-outer-wrap">
+                    <div class="slider-wrap">
+                        <div class="slider">
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="sl-photo">
+                                    <img src="./img/inner01.jpg" alt="" class="img-bg-cover">
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="sl-photo">
+                                    <img src="./img/inner01.jpg" alt="" class="img-bg-cover">
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="sl-photo">
+                                    <img src="./img/inner01.jpg" alt="" class="img-bg-cover">
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="sl-photo">
+                                    <img src="./img/inner01.jpg" alt="" class="img-bg-cover">
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="sl-photo">
+                                    <img src="./img/inner01.jpg" alt="" class="img-bg-cover">
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="sl-photo">
+                                    <img src="./img/inner01.jpg" alt="" class="img-bg-cover">
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="sl-photo">
+                                    <img src="./img/inner01.jpg" alt="" class="img-bg-cover">
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                        </div>
+                    </div>
+                </div>
+                <!--/slider wrap-->
+                <!--text-wrap-->
+                <div class="text-wrap">
+                    <div class="elm-arrow">
+                        <div class="arrow-title">Баня к-15</div>
+                    </div>
+                    <div class="features-wrap">
+                        <div class="elm-row">
+                            <div class="row-title">Размеры: </div>
+                            <div class="row-value">7.5 х 6 м / 40.5 кв.м</div>
+                        </div>
+                        <div class="elm-row">
+                            <div class="row-title">Комплектация: </div>
+                            <div class="row-value">парная, комната отдыха</div>
+                        </div>
+                        <div class="elm-row row-main">
+                            <div class="row-title">Стоимость: </div>
+                            <div class="row-value">
+                                <div class="elm-price">730 000 Р </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actions-wrap">
+                        <a href="" class="btn button-border button-border-light">
+                            <span class="button-title">получить консультацию</span>
+                        </a>
+                    </div>
+                </div>
+                <!--/text-wrap-->
+            </div>
+        </div>
+        <!--/main-top-box-->
+
+        <!-- page -->
+        <div class="page">
+            <div class="container">
+                <!--plans-box-->
+                <div class="plans-box">
+                    <div class="main-title-box">
+                        <h1 class="page-title">Планировки</h1>
+                    </div>
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-photo">
+                                <img src="./img/plan01.jpg" alt="">
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-photo">
+                                <img src="./img/plan02.jpg" alt="">
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                </div>
+                <!--/plans-box-->
+                <!--info-box-->
+                <div class="info-box">
+                    <div class="main-title-box">
+                        <h2 class="page-title">Входит в стоимость строительства дома. Работа + материалы</h2>
+                    </div>
+                    <table class="tbl-info">
+                        <tbody>
+                            <tr>
+                                <th>ОСНОВАНИЕ</th>
+                                <td>
+                                    <p>2 ряда из нестроганного бруса сечением 100х150/150х150/200х150 мм. (в зависимости от толщины капитальных стен). На фундамент укладывается рубероид</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ПОЛОВЫЕ ЛАГИ</th>
+                                <td>
+                                    <p>В обвязку основания устанавливаются лаги пола первого этажа, - нестроганный брус (естественной влажности) сечением 40х150 мм. на ребро с шагом укладки 60см.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ЧЕРНОВОЙ ПОЛ</th>
+                                <td>
+                                    <p>Обрезная доска толщиной 20 мм. (I сорт, естественной влажности), укладывается на череповой брусок 40х50 мм., прикреплённый к половым лагам. По черновому полу в один слой прокладывается мембранная ветровлагоизоляционная плёнка марки "Изоспан А"</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>СТЕНЫ 1-ГО ЭТАЖА</th>
+                                <td>
+                                    <p>17 рядов из профилированного (строганного с 4-х сторон) бруса (естественной влажности) сечением 90х140/140х140/190х140 мм. (в зависимости от выбранной комплектации). Рисунок бруса с внешней стороны типа «БЛОК-ХАУС» или ПРЯМОЙ прострожки с фасками (на стоимость не влияет). Брус изготовлен из древесины хвойных пород (ель, сосна)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>СБОРКА СРУБА</th>
+                                <td>
+                                    <p>Венцы собираются на деревянные берёзовые (сухие) нагеля 200 мм. Рубка углов производится по принципу «Тёплый угол» (коренной «шип-паз»)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>МЕЖВЕНЦОВЫЙ УТЕПЛИТЕЛЬ</th>
+                                <td>
+                                    <p>Между венцами прокладывается льноджутовое полотно</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ПЕРЕГОРОДКИ</th>
+                                <td>
+                                    <p>17 рядов из профилированного (строганного с 4-х сторон) бруса (естественной влажности) сечением 90х140 мм.. Рисунок бруса с обеих сторон ПРЯМОЙ прострожки с фасками. Брус изготовлен из древесины хвойных пород (ель, сосна)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ПОЛЫ</th>
+                                <td>
+                                    <p>Для устройства чистого пола применяется половая шпунтованная доска принудительной (камерной) сушки 36 мм. Крепится на саморезы</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ПОЛЫ В МОЕЧНОМ ОТДЕЛЕНИИ</th>
+                                <td>
+                                    <p>Полы в моечном отделении устраиваются с уклоном к центру помещения. Утепление пола - керамзитовый гравий в 100 мм. В центре помещения монтируется сливное отверстие, куда устанавливается канализационный трап. Для устройства чистого пола применяется половая шпунтованная доска принудительной (камерной) сушки 36 мм.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>УТЕПЛЕНИЕ</th>
+                                <td>
+                                    <p>Пол и потолок - утепляются минеральной ватой «KNAUF Insulation» в 100 мм.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ВЫСОТА ПОТОЛКОВ</th>
+                                <td>
+                                    <p>2.4 м. (допуски по высоте +/- 5 см.)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ПОТОЛОЧНАЯ (ПОДСТРОПИЛЬНАЯ) БАЛКА</th>
+                                <td>
+                                    <p>Нестроганная доска 40х150 мм. (естественной влажности) на ребро с шагом укладки не более 900 мм.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ВНУТРЕННЯЯ ОТДЕЛКА</th>
+                                <td>
+                                    <p>Потолок: по потолочным балкам монтируется парогидроизоляция «Изоспан В» . Потолок обшивается вагонкой принудительной (камерной) сушки толщиной 12,5-17 мм. На стыки углов стен, потолка прибивается хвойный плинтус.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ПАРНОЕ ОТДЕЛЕНИЕ</th>
+                                <td>
+                                    <p>По периметру всех стен и потолка прокладывается кашированная фольга на бумажной основе, благодаря которой всё выделяемое тепло аккумулируется внутри парной. Стены и потолок обшиваются вагонкой (порода дерева - осина) класса «В». Устраиваются двухъярусные пологи из строганной доски (порода дерева - осина) класса «В». Плинтус стыкованный (порода дерева - осина).</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>УСТРОЙСТВО ОТОПЛЕНИЯ И ДЫМОХОДА</th>
+                                <td>
+                                    <p>Печь и дымоход в базовую комплектацию не входит. Рассчитывается индивидуально для каждого проекта в зависимости от объёма парного отделения (отапливаемого помещения) и Ваших собственных предпочтений. Всю необходимую информацию Вы можете узнать на нашем сайте в разделе «Печи для бань». Возможно производство монтажа Вашей печи.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>СТРОПИЛЬНАЯ СИСТЕМА</th>
+                                <td>
+                                    <p>Выполняется из нестроганной доски 40х100 мм. (естественной влажности) с шагом не более 900 мм.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ОБРЕШЁТКА КРЫШИ</th>
+                                <td>
+                                    <p>Выполняется из нестроганной доски толщиной 20 мм. (естественной влажности)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ТИП КРЫШИ</th>
+                                <td>
+                                    <p>В зависимости от выбранного проекта (двускатная, вальмового или полувальмового типа и др.)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ВЫСОТА КОНЬКА</th>
+                                <td>
+                                    <p>От 1,5 м. (допуски по высоте +/- 5 см.)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>КРОВЛЯ</th>
+                                <td>
+                                    <p>Ондулин (цветовая гамма: коричневый, красный, зелёный). Кровельный конёк металлический, соответствует выбранному цвету кровли</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ФРОНТОНЫ</th>
+                                <td>
+                                    <p>Снаружи бани, фронтоны обшиваются вагонкой хвойных пород, толщиной 16мм. Во фронтоны монтируются вентиляционные решётки</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ПОДНЕБЕСНИКИ И СВЕСЫ КРЫШИ</th>
+                                <td>
+                                    <p>Поднебесники и карнизы (свесы крыши) зашиваются вагонкой хвойных пород толщиной 16мм. Ширина свеса по периметру: 25-30 см.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ОКНА</th>
+                                <td>
+                                    <p>Пластиковые однокамерный стеклопакет. Размеры и количество оконных блоков, в зависимости от выбранного проекта. Оконные проёмы обносятся наличником.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ДВЕРИ</th>
+                                <td>
+                                    <p>Входная: металлическая (утеплённая) российского производства (правая или левая, на стоимость не влияет), размер 2.05х0.95 м. с фурнитурой.</p>
+                                    <p>Межкомнатные: филёнчатые (глухие), размер 2х0.8 м.. Дверные петли-бабочки (универсальные). Количество дверей, в зависимости от выбранного проекта. Дверные проёмы обносятся наличником</p>
+                                    <p>В моечном и парном отделениях – банные (порода дерева - осина) 1.7х0.7 м. Дверные петли-бабочки (универсальные). Количество дверей, в зависимости от выбранного проекта. Дверные проёмы обносятся наличником</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ТЕРРАСА</th>
+                                <td>
+                                    <p>На террасе устанавливаются опорные столбы из строганного бруса с компенсационными лифтами (домкратами). На террасе монтируется ограждение из перил (строганный брусок 40х100мм.) и плоских балясин. Потолок на террасе подшивается вагонкой хвойных пород, толщиной 12,5-17мм. принудительной (камерной) сушки. Для устройства чистого пола применяется половая шпунтованная доска принудительной (камерной) сушки 36 мм. Крепится на саморезы</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ЛЕСТНИЦА</th>
+                                <td>
+                                    <p>К бане приступок</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--/info-box-->
+                <!--prices-box-->
+                <div class="prices-box">
+                    <div class="main-title-box">
+                        <h2 class="page-title">В проект можно добавить:</h2>
+                    </div>
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Сруб из сухого бруса 90х140мм</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price01">
+                                        <label for="price01"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Половая доска 36мм</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price02">
+                                        <label for="price02"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Утепление пола и потолка 100мм</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price03">
+                                        <label for="price03"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Дверь металлическая</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price04">
+                                        <label for="price04"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Печь Стандарт с баком на трубе</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price05">
+                                        <label for="price05"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Дверь стеклянная матовая</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price06">
+                                        <label for="price06"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Печь Ермак-12 с вын. баком</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price07">
+                                        <label for="price07"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-price">
+                                <div class="price-title-wrap">
+                                    <div class="price-title">Вагонка осина класса "А"</div>
+                                </div>
+                                <div class="price-total-wrap">
+                                    <div class="elm-price">11 600 руб</div>
+                                    <div class="frm-select-clear">
+                                        <input type="checkbox" id="price08">
+                                        <label for="price08"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                    <div class="total-wrap">
+                        <div class="total-title">Итого:</div>
+                        <div class="total-price">
+                            <div class="elm-price">15 300 Р </div>
+                        </div>
+                    </div>
+                    <div class="actions-wrap">
+                        <a href="" class="btn button-border button-second">
+                            <span class="button-title">заказать баню</span>
+                        </a>
+                    </div>
+                </div>
+                <!--/prices-box-->
+                <!--projects-slider-box-->
+                <div class="projects-slider-box">
+                    <div class="main-title-box">
+                        <h2 class="page-title">проекты в жизни</h2>
+                    </div>
+                    <div class="slider-outer-wrap">
+                        <div class="slider-wrap">
+                            <div class="slider">
+                                <!--sl-wrap-->
+                                <div class="sl-wrap">
+                                    <a href="" class="item-photo">
+                                        <img src="./img/project.jpg" alt="" class="img-bg-cover">
+                                    </a>
+                                </div>
+                                <!--/sl-wrap-->
+                                <!--sl-wrap-->
+                                <div class="sl-wrap">
+                                    <a href="" class="item-photo">
+                                        <img src="./img/project.jpg" alt="" class="img-bg-cover">
+                                    </a>
+                                </div>
+                                <!--/sl-wrap-->
+                                <!--sl-wrap-->
+                                <div class="sl-wrap">
+                                    <a href="" class="item-photo">
+                                        <img src="./img/project.jpg" alt="" class="img-bg-cover">
+                                    </a>
+                                </div>
+                                <!--/sl-wrap-->
+                                <!--sl-wrap-->
+                                <div class="sl-wrap">
+                                    <a href="" class="item-photo">
+                                        <img src="./img/project.jpg" alt="" class="img-bg-cover">
+                                    </a>
+                                </div>
+                                <!--/sl-wrap-->
+                                <!--sl-wrap-->
+                                <div class="sl-wrap">
+                                    <a href="" class="item-photo">
+                                        <img src="./img/project.jpg" alt="" class="img-bg-cover">
+                                    </a>
+                                </div>
+                                <!--/sl-wrap-->
+                                <!--sl-wrap-->
+                                <div class="sl-wrap">
+                                    <a href="" class="item-photo">
+                                        <img src="./img/project.jpg" alt="" class="img-bg-cover">
+                                    </a>
+                                </div>
+                                <!--/sl-wrap-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/projects-slider-box-->
+            </div>
+        </div>
+        <!-- /page -->
+
+        <!--order-box-->
+        <div class="main-order-box cnt-section">
+            <div class="container">
+                <div class="inner-outer-wrap">
+                    <div class="text-wrap">
+                        <div class="arrow-wrap">
+                            <div class="elm-arrow color-second">
+                                <div class="arrow-title">оставьте заявку</div>
+                            </div>
+                        </div>
+                        <div class="text-title">Хотите узнать стоимость строительства, получить консультацию или помощь в подборе проекта?</div>
+                        <div class="phone-wrap">
+                            <div class="phone-title">позвоните нам</div>
+                            <a href="tel:89315802131" class="phone-number">+7 931 580-21-31</a>
+                        </div>
+                    </div>
+                    <div class="form-wrap">
+                        <form action="/" class="frm-main">
+                            <div class="frm-row">
+                                <input type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="frm-row">
+                                <input type="tel" placeholder="+7 000 00 00 00">
+                            </div>
+                            <div class="frm-row">
+                                <input type="email" placeholder="Ваш e-mail">
+                            </div>
+                            <div class="frm-row">
+                                <input type="text" placeholder="Комментарий">
+                            </div>
+                            <div class="frm-row-submit">
+                                <button type="submit">
+                                    <span class="button-title">отправить заявку</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/order-box-->
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="info-wrap">
+                    <div class="logo-wrap">
+                        <a href="" class="logo">
+                            <span class="logo-title">Проф</span>
+                            <span class="logo-title">Баня</span>
+                        </a>
+                    </div>
+                    <div class="logo-info">Проектирование и строительство бань из бруса под ключ</div>
+                    <div class="text-wrap">ОГРН: 1053600591197 <br>ИНН: 3664069397</div>
+                    <div class="copy-wrap">© Все права защищены. 2021</div>
+                </div>
+                <div class="menu-wrap">
+                    <ul>
+                        <li><a href="" class="link-main">Проекты</a></li>
+                        <li><a href="" class="link-main">О компании</a></li>
+                        <li><a href="" class="link-main">Преимущества</a></li>
+                        <li><a href="" class="link-main">Технология</a></li>
+                        <li><a href="" class="link-main">Схема работы</a></li>
+                        <li><a href="" class="link-main">Вопрос-ответ</a></li>
+                        <li><a href="" class="link-main">Наши работы</a></li>
+                        <li><a href="" class="link-main">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div class="contacts-wrap">
+                    <div class="phone-wrap">
+                        <a href="tel:84959601313">+7 (495) 960-13-13</a>
+                    </div>
+                    <div class="phone-wrap">
+                        <a href="tel:88129280888">+7 (812) 928-08-88</a>
+                    </div>
+                    <div class="email-wrap">
+                        <a href="mailto:info@profbanya.su">info@profbanya.su</a>
+                    </div>
+                    <div class="callback-wrap">
+                        <a href="" class="btn button-border button-border-light" data-src="#popup-callback" data-fancybox>
+                            <span class="button-title">заказать звонок</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-info-wrap">
+                    <div class="links-wrap">
+                        <p><a href="" class="link-main">Договор оферты</a></p>
+                        <p><a href="" class="link-main">Политика конфиденциальности</a></p>
+                    </div>
+                    <div class="studio-wrap">
+                        <div class="studio-title">Разработка сайта</div>
+                        <a href="" class="studio-logo">
+                            <img src="./img/main/logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <div id="popup-callback" class="popup-box" style="display: none;">
+            <form action="/" class="frm-main">
+                <div class="frm-title-wrap">
+                    <div class="elm-arrow color-second">
+                        <div class="arrow-title">обратный звонок</div>
+                    </div>
+                </div>
+                <div class="frm-wrap">
+                    <div class="frm-row">
+                        <input type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="frm-row">
+                        <input type="tel" placeholder="+7 000 00 00 00">
+                    </div>
+                    <div class="frm-row">
+                        <input type="email" placeholder="Ваш e-mail">
+                    </div>
+                    <div class="frm-row">
+                        <input type="text" placeholder="Комментарий">
+                    </div>
+                    <div class="frm-row-submit">
+                        <button type="submit">
+                            <span class="button-title">отправить заявку</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- /wrap -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/jquery.onepage-scroll.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
+</body>
+
+</html>

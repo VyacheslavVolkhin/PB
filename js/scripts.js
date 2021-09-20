@@ -100,5 +100,73 @@ $(document).ready(function(){
 			$(this).addClass('active').next('.js-tab-content').slideDown(200);
 		}
 	})
+
+
+    //main-top-box
+    $('.main-top-box .slider').slick({
+        dots: true,
+        slidesToShow: 1,
+        variableWidth: false,
+        infinite: true,
+        prevArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-prev"></span>',
+        nextArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-next"></span>',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    prevArrow: false,
+                    nextArrow: false,
+                }
+            },
+        ]
+    });
+
+    //main-projects-slider-box
+    $('.main-projects-slider-box .slider').slick({
+        dots: true,
+        slidesToShow: 1,
+        variableWidth: false,
+        infinite: true,
+        prevArrow: false,
+        nextArrow: false,
+    });
+
+    //projects-slider-box
+    $('.projects-slider-box .slider').slick({
+        dots: true,
+        slidesToShow: 1,
+        variableWidth: false,
+        infinite: true,
+        prevArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-prev"></span>',
+        nextArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-next"></span>',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    prevArrow: false,
+                    nextArrow: false,
+                }
+            },
+        ]
+    });
+
+    if (!!$('.main-page').offset()) {
+        if ($(window).innerWidth()>991) {
+            $(".main-page").onepage_scroll({
+                sectionContainer: "section",
+                easing: "ease",
+                animationTime: 1000,
+                pagination: false,
+                updateURL: false,
+                beforeMove: function(index) {},
+                afterMove: function(index) {},
+                loop: false,
+                keyboard: true,
+                responsiveFallback: false,
+                direction: "vertical"
+            });
+        }
+        $(".main-page").moveTo(2);
+    }
 	
 });
