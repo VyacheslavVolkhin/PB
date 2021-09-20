@@ -2324,11 +2324,15 @@ body {
   }
 }
 @media (min-width: 992px) and (max-width: 1799px) {
-  .viewing-page-3 .header .soc-wrap:after {
+  .viewing-page-3 .header .soc-wrap:after,
+  .viewing-page-4 .header .soc-wrap:after,
+  .viewing-page-5 .header .soc-wrap:after {
     right: 101px;
     margin: 0;
   }
-  .viewing-page-3 .header .soc-wrap:before {
+  .viewing-page-3 .header .soc-wrap:before,
+  .viewing-page-4 .header .soc-wrap:before,
+  .viewing-page-5 .header .soc-wrap:before {
     right: 102px;
     margin: 0;
   }
