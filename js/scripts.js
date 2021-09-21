@@ -150,6 +150,25 @@ $(document).ready(function(){
         ]
     });
 
+    //reviews-slider-box
+    $('.reviews-slider-box .slider').slick({
+        dots: true,
+        slidesToShow: 1,
+        variableWidth: false,
+        infinite: false,
+        prevArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-prev"></span>',
+        nextArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-next"></span>',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    prevArrow: false,
+                    nextArrow: false,
+                }
+            },
+        ]
+    });
+
     if (!!$('.main-page').offset()) {
         if ($(window).innerWidth()>991) {
             $(".main-page").onepage_scroll({
@@ -166,7 +185,7 @@ $(document).ready(function(){
                 direction: "vertical"
             });
         }
-        $(".main-page").moveTo(2);
+        $(".main-page").moveTo(8);
     }
 	
 });
