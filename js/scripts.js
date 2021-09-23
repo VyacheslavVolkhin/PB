@@ -185,7 +185,7 @@ $(document).ready(function(){
                 direction: "vertical"
             });
         }
-        $(".main-page").moveTo(8);
+        $(".main-page").moveTo(1);
     }
 	
 });
