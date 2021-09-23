@@ -185,7 +185,6 @@ $(document).ready(function(){
                 direction: "vertical"
             });
         }
-        $(".main-page").moveTo(10);
     }
 	
 });
