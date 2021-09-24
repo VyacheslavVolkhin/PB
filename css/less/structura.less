@@ -46,6 +46,10 @@ html, body {
 	&>.cnt-section {
 		flex-shrink: 0;
 	}
+    &.wrap-main {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
 }
 .nav,
 .header,
@@ -632,6 +636,17 @@ html, body {
     .header  {
         .soc-wrap {
             display: flex;
+            position: fixed;
+        }
+    }
+    .main-menu-wrap {
+        position: fixed;
+    }
+    .menu-show {
+        .header {
+            .soc-wrap {
+                display: none;
+            }
         }
     }
 }
@@ -651,5 +666,17 @@ html, body {
                 }
             }
         }
+    }
+}
+@media (min-width: 1800px) {
+    .header {
+        .soc-wrap {
+            right: 50%;
+            margin-right: -840px;
+        }
+    }
+    .main-menu-wrap {
+        right: 50%;
+        margin-right: -900px;
     }
 }

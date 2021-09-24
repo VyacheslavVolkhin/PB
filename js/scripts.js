@@ -139,15 +139,6 @@ $(document).ready(function(){
         infinite: true,
         prevArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-prev"></span>',
         nextArrow: '<span class="btn btn-action-ico ico-arrow ico-arrow-next"></span>',
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    prevArrow: false,
-                    nextArrow: false,
-                }
-            },
-        ]
     });
 
     //reviews-slider-box
@@ -186,5 +177,5 @@ $(document).ready(function(){
             });
         }
     }
-	
+    //$(".main-page").moveTo(1)
 });
