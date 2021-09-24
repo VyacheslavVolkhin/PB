@@ -177,5 +177,5 @@ $(document).ready(function(){
             });
         }
     }
-    //$(".main-page").moveTo(1)
+    $(".main-page").moveTo(1)
 });
