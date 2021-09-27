@@ -177,5 +177,20 @@ $(document).ready(function(){
             });
         }
     }
-    $(".main-page").moveTo(1)
+
+    if (!!$('.main-order-box').offset()) {
+        let stickyTop = $('.main-order-box').offset().top - 1250;
+        $(window).scroll(function () {
+            let sTop = $('.main-order-box').offset().top - 1176 - $(window).scrollTop();
+            let mTop = $('.main-order-box').offset().top - 1330 - $(window).scrollTop();
+            var windowTop = $(window).scrollTop();
+            if (stickyTop < windowTop) {
+                $('.wrap').addClass('menu-scroll');
+                $('.main-menu-wrap').css('top', mTop)
+                $('.header .soc-wrap').css('top', sTop)
+            } else {
+                $('.wrap').removeClass('menu-scroll');
+            }
+        });
+    }
 });
